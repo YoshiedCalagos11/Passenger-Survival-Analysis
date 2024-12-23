@@ -49,7 +49,7 @@
 - **Pie Chart**: Shows the overall percentage for each class.
 
 ## Data Gathering
-- Download the data from Kaggle: Titanic Dataset.
+- Download the data from Kaggle: Titanic Dataset https://www.kaggle.com/competitions/titanic
 - Create a schema in MySQL and insert the tables from Kaggle.
 
 ## Data Description
