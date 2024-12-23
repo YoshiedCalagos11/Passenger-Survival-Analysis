@@ -76,6 +76,11 @@
 ### Categorize Age
 - Create a new column to categorize age as Children, Youth&Adults, or Seniors using the following Python script:
 
+## Dashboard Link
+- View the dashboard [here](https://public.tableau.com/app/profile/yoshied.calagos/viz/TitanicDataSet_17349897856130/Dashboard1).
+
+![image](https://github.com/user-attachments/assets/f0a80243-4ad4-4f48-bb66-a9a848823ba3)
+
 ```python
 import pandas as pd
 
@@ -98,3 +103,4 @@ df['age_category'] = df['Age'].apply(categorize_age)
 df.to_excel('firstsheet_with_age_category.xlsx', index=False)
 
 print("The new column 'age_category' has been added and saved to 'firstsheet_with_age_category.xlsx'.")
+
