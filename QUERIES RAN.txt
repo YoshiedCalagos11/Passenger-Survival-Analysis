@@ -1,0 +1,9 @@
+QUERIES
+SELECT * 
+FROM titanic_final_table
+LIMIT 10 ; 
+
+
+SELECT Survived, Pclass, Age
+FROM titanic_final_table
+LIMIT 10 ; 
